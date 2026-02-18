@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    background: white;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 800px;
+    max-width: 95%;
+}
+
+.left-column {
+    background: #f0f0f0;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-column .profile {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.right-column {
+    padding: 40px;
+    flex: 1;
+}
+
+h1 {
+    margin: 0 0 10px;
+}
+
+.title {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.skills, .contact, .summary {
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 5px 10px 0 0;
+    padding: 8px 12px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.buttons a:hover {
+    background: #764ba2;
+}
